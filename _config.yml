@@ -34,4 +34,4 @@ target-blank:
 jekyll_admin:
     hidden_links:
 
-header_page_refs: ['now', 'about', 'contact']
+header_page_refs: ['now', 'about', 'activities', 'contact']

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
-tagline: HCPC について
+title: HCPC について
+header-title: About
+tagline: 当サークルの活動内容を紹介しています。
 permalink: /about.html
 ref: about
 order: 0

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Now
+header-title: Now
 tagline: What I'm doing now
 permalink: /now.html
 ref: now
