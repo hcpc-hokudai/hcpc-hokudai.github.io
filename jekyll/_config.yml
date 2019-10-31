@@ -1,0 +1,37 @@
+lang: "ja"
+title: HCPC 北海道大学競技プログラミングサークル
+description: 北海道大学にあります、競技プログラミングの練習会・勉強会を行うサークルです。
+show_downloads: true
+
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://hcpc-hokudai.github.io" # change this to the base hostname & protocol for your site
+
+google_analytics:
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
+# social
+author: HCPC 北海道大学競技プログラミングサークル
+image: /thumbnail-jumbo.png
+twitter:
+    username: hcpc_hokudai
+
+github:
+    owner_url: "https://github.com/hcpc-hokudai/"
+    owner_name: "HCPC"
+
+plugins:
+  - jekyll-target-blank
+
+target-blank:
+    rel: nofollow
+
+jekyll_admin:
+    hidden_links:
+
+header_page_refs: ['now', 'about', 'contact']
