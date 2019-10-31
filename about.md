@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aboud
+title: About
 tagline: HCPC について
 permalink: /about.html
 ref: about
