@@ -3,10 +3,13 @@ layout: post
 title: "Post content styles"
 tagline: "This post demonstrates post content styles"
 categories: junk
-image: /thumbnail-mobile.png
 author: "Bart Simpson"
 meta: "Springfield"
 ---
+
+<!-- previous setting -->
+<!-- image: /thumbnail-mobile.png -->
+<!-- previous setting end -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
