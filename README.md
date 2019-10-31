@@ -6,4 +6,6 @@
 
 ## 注意 (編集者向け)
 
-`Gemfile` および `Gemfile.lock` は gem パッケージの管理に必要なファイルです。取扱にはご注意ください
+- `Gemfile` および `Gemfile.lock` は gem パッケージの管理に必要なファイルです。取扱にはご注意ください
+- GitHub Pages では jekyll ページの build は自動でやってくれます。なので、`_site` ディレクトリは push する必要がありません
+    - `.gitignore` で push しない設定にしてあります
