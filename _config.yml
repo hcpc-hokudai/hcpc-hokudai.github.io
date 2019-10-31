@@ -17,7 +17,7 @@ theme: # leave it empty
 
 # social
 author: HCPC 北海道大学競技プログラミングサークル
-image: /thumbnail-jumbo.png
+image: /hcpc-thumbnail.png
 twitter:
     username: hcpc_hokudai
 
