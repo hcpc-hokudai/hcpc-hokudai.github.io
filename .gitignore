@@ -4,6 +4,9 @@
 .sass-cache/
 .jekyll-cache/
 
+### root に不要なものを置かないようにする
+/jekyll-theme-cayman-blog.gemspec
+/script
 
 ### プラグインを使うため、GitHub Pages 上で build しない
 ### _site/ はローカルで生成して push する
