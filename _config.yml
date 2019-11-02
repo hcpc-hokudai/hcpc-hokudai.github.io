@@ -25,13 +25,20 @@ github:
     owner_url: "https://github.com/hcpc-hokudai/"
     owner_name: "HCPC"
 
-plugins:
-  - jekyll-target-blank
+# plugins:
+#  - jekyll-target-blank
 
-target-blank:
-    rel: nofollow
+# target-blank:
+#     rel: nofollow
 
 jekyll_admin:
     hidden_links:
 
 header_page_refs: ['about', 'activities', 'contact']
+
+# url definitions
+aoj_hupc_url: 'https://onlinejudge.u-aizu.ac.jp/challenges/sources/VPC/HUPC/'
+aoj_contest_url: 'https://onlinejudge.u-aizu.ac.jp/services/room.html#'
+reg_atnd_url: 'https://atnd.org/events/'
+reg_kokucheese_url: 'https://kokucheese.com/event/index/'
+hcpc_archive_url: 'https://hcpc-hokudai.github.io/archive/'
