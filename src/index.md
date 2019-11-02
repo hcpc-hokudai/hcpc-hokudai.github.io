@@ -8,7 +8,7 @@
 layout: home
 ---
 
-<span style="color:red;font-weight:bold;">旧ホームページは [http://hcpc.web.fc2.com/](http://hcpc.web.fc2.com/) をご覧ください。</span>
+<!-- <span style="color:red;font-weight:bold;">旧ホームページは [http://hcpc.web.fc2.com/](http://hcpc.web.fc2.com/) をご覧ください。</span> -->
 
 HCPC ではいつでもメンバーを募集しています。活動に興味を持たれた方は、お気軽にご連絡ください！学部学科や、プログラミング歴などは問いません！
 

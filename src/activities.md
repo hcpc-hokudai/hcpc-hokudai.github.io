@@ -14,6 +14,8 @@ table {
 }
 </style>
 
+**勉強会資料および合宿の問題解説のスライドは、[hcpc-hokudai/archive](https://github.com/hcpc-hokudai/archive) リポジトリにもまとめられています。``git clone`` ・ダウンロード等可能ですので、ぜひご活用ください。**
+
 # 勉強会資料
 
 <!-- ///// template /////
