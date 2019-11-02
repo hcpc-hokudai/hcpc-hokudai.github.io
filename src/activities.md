@@ -185,6 +185,7 @@ table {
 - [合宿の案内 (ATND)]({{ site.reg_atnd_url }}105815)
 - コンテスト日程: 2019 年 7 月 15 日 10:00 〜 13:00
 - [問題セットへのリンク]({{ site.aoj_contest_url }}HUPC2019Day2)
+- 有志による作問 (staff: drken, idsigma, tempura0224, tsutaj, tubuann)
 
 | 問題タイトル                                               | 解説                                                                           |
 |------------------------------------------------------------|--------------------------------------------------------------------------------|
@@ -211,7 +212,7 @@ table {
 | [D: Many Decimal Integers]({{ site.aoj_hupc_url }}3110) | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2019/acpc2019_D.pdf) |
 | [E: 総和の切り取り]({{ site.aoj_hupc_url }}3111)        | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2019/acpc2019_E.pdf) |
 | [F: 部分文字列分解]({{ site.aoj_hupc_url }}3112)        | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2019/acpc2019_F.pdf) |
-| [G: Restrict DFS]({{ site.aoj_hupc_url }}3113)          | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2019/acpc2019_G.pdf) |
+| [G: Restricted DFS]({{ site.aoj_hupc_url }}3113)          | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2019/acpc2019_G.pdf) |
 
 {% enddetails %}
 

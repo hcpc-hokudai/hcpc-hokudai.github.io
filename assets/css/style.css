@@ -1025,14 +1025,14 @@ a {
       height: 36px; } }
 
 details {
-  margin-top: 0.5em;
-  color: grey; }
+  margin-top: 0.5em; }
   details summary {
     margin-bottom: 0.3em;
-    padding-left: 0.3em;
+    padding: 0.3em 0.3em 0.3em 0.5em;
     border: solid 1px #04B45F;
     border-radius: 0.3em;
-    font-size: 1.3em; }
+    font-size: 1.0em;
+    color: #003300; }
     details summary::before {
       font-family: "Font Awesome 5 Free";
       font-size: 1.0em;
