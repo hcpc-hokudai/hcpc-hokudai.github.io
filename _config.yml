@@ -51,6 +51,7 @@ exclude:
   - Rakefile
   - jekyll-theme-cayman-blog.gemspec
   - docs/
+  - .gitignore
 
 # safe: false # for using plugins
 # pygments: true
