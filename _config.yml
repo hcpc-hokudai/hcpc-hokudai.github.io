@@ -7,7 +7,7 @@ show_downloads: true
 
 # build source / destination
 source: ./src/
-destination: ./ci-build-test/
+destination: ./ci-build/
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://hcpc-hokudai.github.io" # change this to the base hostname & protocol for your site

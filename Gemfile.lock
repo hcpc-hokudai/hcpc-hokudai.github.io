@@ -81,6 +81,7 @@ GEM
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rainbow (3.0.0)
+    rake (13.0.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -126,6 +127,7 @@ DEPENDENCIES
   html-proofer (~> 3.0)
   jekyll-admin
   jekyll-theme-cayman-blog!
+  rake
   rubocop (~> 0.50)
   w3c_validators (~> 1.3)
 

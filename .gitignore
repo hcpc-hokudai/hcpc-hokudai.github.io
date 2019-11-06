@@ -12,4 +12,4 @@ run.sh
 
 ### Travis CI 用
 vendor
-ci-build-test # CI build test !!
+ci-build
