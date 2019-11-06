@@ -6,7 +6,7 @@ description: 北海道大学にあります、競技プログラミングの練�
 show_downloads: true
 
 # build source / destination
-source: ./src/
+source: ./
 destination: ./ci-build/
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.

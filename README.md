@@ -1,39 +1,24 @@
 # HCPC 北海道大学競技プログラミングサークル
+[![Build Status](https://travis-ci.org/hcpc-hokudai/hcpc-hokudai.github.io.svg?branch=master)](https://travis-ci.org/hcpc-hokudai/hcpc-hokudai.github.io)
 
-**!!! 工事中です !!!**
-
-- [移行先予定のホームページはこちら](https://hcpc-hokudai.github.io/)
-- [現行のホームページはこちら](http://hcpc.web.fc2.com/)
+- [このリポジトリに対応するホームページはこちら](https://hcpc-hokudai.github.io/)
+- [旧ホームページはこちら](http://hcpc.web.fc2.com/)
 
 ## 注意 (編集者向け)
 
 - `Gemfile` および `Gemfile.lock` は gem パッケージの管理に必要なファイルです。取扱にはご注意ください
-- ~~GitHub Pages では jekyll ページの build は自動でやってくれます。なので、`_site` ディレクトリは push する必要がありません~~
-    - ~~`.gitignore` で push しない設定にしてあります~~
-    - **plugin の関係で自動 build が使用できなくなったため、以下の「ビルドについて (編集者向け)」を読んでください**
-    
+- Nov 6. 2019 頃に構成を大きく変更しました。それ以前に `clone` していてあまりいじっていない場合は、消して再度 `clone` したほうがいろいろと楽だと思います
+
 ## ビルドについて (編集者向け)
-`<details>` タグはそのままではうまく変換されないため、ユーザー指定の plugin も利用してビルドを行います。しかし、GitHub Pages 上では利用可能な plugin が限定されているためにビルドできません。これを回避するために、以下の手順を踏んでページを公開することにしています。
-1. `src` ディレクトリに行き、自分の (ローカルな) 環境で `jekyll buiid` し、公開用のファイルを作成
-1. 作成されたファイルを root (最も上の階層) へ移動
-1. 不要なファイルがいくつか含まれているので削除
 
-毎回手で行うのは大変なので、例えば次のようなスクリプトを用意すると良いです (下のコードを `run.sh` とかにして root に保存して使う)
+`source` ブランチにあるものは [Travis CI](https://travis-ci.org/) によって自動で `master` ブランチにビルドされます。以下の点にご注意ください。
 
-``` bash
-ls | grep -v -E "^README.md|^LICENSE|^docs|^src|^run.sh" | xargs rm -rf # 元々ビルドされていたものを消す (いるものを消さないように注意)
-cd src/
-bundle exec jekyll clean # _site ディレクトリを消す
-bundle exec jekyll build # ビルドして _site ディレクトリを生成
-mv _site/* ../ # _site の中身を全て root に移動
-
-cd -
-rm -rf jekyll-theme-cayman-blog.gemspec script # .gitignore でどうせ除外されるので、あまり必要ない
-```
-
-GitHub Pages を使う恩恵がもはやないのですが、自分で入れた plugin を使おうとするとこれ以外に方法がないので仕方がないという状況です。公式で用意されている plugin で同等の機能があるなど、解決策が見つかり次第対応しようとは思います。
+- **`master` ブランチにあるものを編集しないでください。** しても CI で上書きされるので無駄です。
+- `source` ブランチで `jekyll build` 等をしてできる `ci-build` ディレクトリは **`push` しないでください** (`.gitignore` に書いてあるので意図的にやらない限りされないはずです)。このディレクトリは CI を走らせるときに生成・使用されるもので、リポジトリで管理する必要はありません。
 
 ## 更新方法
+
+**`source` ブランチで作業してください**
 
 ### ページの追加
 
