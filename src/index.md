@@ -14,4 +14,4 @@ HCPC ではいつでもメンバーを募集しています。活動に興味を
 
 連絡先はこちらを参照ください: [お問い合わせ]({{ '/contact.html' | absolute_url }})
 
-勉強会スライド・過去に作問した問題の一覧は [活動記録]({{ '/activities.html' | absolute_url }}) をご覧ください。
+勉強会スライド・過去に出題した問題の一覧は [活動記録]({{ '/activities.html' | absolute_url }}) をご覧ください。
