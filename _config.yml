@@ -23,8 +23,12 @@ theme: # leave it empty
 author: HCPC 北海道大学競技プログラミングサークル
 image: /hcpc-thumbnail.png
 twitter:
-    username: hcpc_hokudai
+  username: hcpc_hokudai
+github:
+  owner_name: HCPC
+  owner_url: https://github.com/hcpc-hokudai
 
+# for running ci
 username: hcpc-hokudai
 repo: hcpc-hokudai.github.io
 branch: source
