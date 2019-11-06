@@ -27,7 +27,7 @@ twitter:
 
 username: hcpc-hokudai
 repo: hcpc-hokudai.github.io
-branch: master
+branch: source
 
 # url definitions
 header_page_refs: ['about', 'activities', 'contact']
