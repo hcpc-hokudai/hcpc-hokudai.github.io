@@ -42,6 +42,11 @@ hcpc_archive_url: 'https://hcpc-hokudai.github.io/archive/'
 exclude:
   - script
   - vendor
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - jekyll-theme-cayman-blog.gemspec
+  - docs/
 
 # safe: false # for using plugins
 # pygments: true
