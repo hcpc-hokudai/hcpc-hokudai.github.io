@@ -59,6 +59,7 @@ table {
 | ICPC 練習会 〜全域木いろいろ〜         | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_mst_001.pdf)                |
 | グラフを扱おう: 最短路問題             | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_shortest_path_001.pdf)      |
 | 最短経路問題 & 最小全域木              | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_shortest_path_mst_001.pdf)  |
+| 強連結成分分解&トポロジカルソート      | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_scc_001.pdf)                |
 | トポロジカルソート                     | [Archive (pptx)]({{ site.hcpc_archive_url }}graph_topological_sort_001.pptx) |
 
 {% enddetails %}
@@ -90,7 +91,8 @@ table {
 | Binary Indexed Tree             | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_binary_indexed_tree_001.pdf) |
 | 蟻本輪講 データ構造 (P69 〜 86) | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_data_strc_001.pdf)           |
 | RMQ クエリ処理                  | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_rmq_001.pdf)                 |
-| 非再帰セグ木                  | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_segtree_001.pdf)                 |
+| 非再帰セグ木                    | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_segtree_001.pdf)             |
+| UnionFind                       | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_union_find_001.pdf)          |
 
 {% enddetails %}
 
