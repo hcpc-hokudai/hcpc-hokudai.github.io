@@ -254,7 +254,7 @@ table {
 | [D: しりとり圧縮]({{ site.aoj_hupc_url }}2892)  | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2018/acpc2018_D.pdf) |
 | [E: 均衡な辺削除]({{ site.aoj_hupc_url }}2893)  | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2018/acpc2018_E.pdf) |
 | [F: 01 文字列と窓]({{ site.aoj_hupc_url }}2894) | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2018/acpc2018_F.pdf) |
-| [G: 回分部分列]({{ site.aoj_hupc_url }}2895)    | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2018/acpc2018_G.pdf) |
+| [G: 回文部分列]({{ site.aoj_hupc_url }}2895)    | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2018/acpc2018_G.pdf) |
 
 {% enddetails %}
 
