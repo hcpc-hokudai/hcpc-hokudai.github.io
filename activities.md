@@ -53,7 +53,8 @@ table {
 | タイトル                               | リンク                                                                       |
 |----------------------------------------|------------------------------------------------------------------------------|
 | グラフネットワーク 〜フロー & カット〜 | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_001.pdf)               |
-| 最大流                                 | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_002.pdf)               |
+| 最大流（Ford-Fulkerson）・最小カット   | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_002.pdf)               |
+| 最大流（Dinic）・最小流量制約付き最大流| [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_003.pdf)               |
 | グラフマスターに、俺はなる！           | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_master_001.pdf)             |
 | 最大マッチングアルゴリズム             | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_max_matching_001.pdf)       |
 | ICPC 練習会 〜全域木いろいろ〜         | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_mst_001.pdf)                |
