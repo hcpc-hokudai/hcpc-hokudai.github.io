@@ -217,7 +217,7 @@ namespace :site do
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
       sh "git add --all ."
-      sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
+      sh "git commit -m '[ci skip] Updating to #{USERNAME}/#{REPO}@#{sha}.'"
       sh "git push --quiet origin #{DESTINATION_BRANCH} >/dev/null 2>&1"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
