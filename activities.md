@@ -72,6 +72,7 @@ table {
 | 写像 12 相を題材にした、基本的な数え上げ問題に対するアプローチ  | [Archive (PDF)]({{ site.hcpc_archive_url }}math_twelvefold_way_001.pdf)      |
 | 数え上げテクニック Hard                                         | [Archive (PDF)]({{ site.hcpc_archive_url }}math_enumeration_hard_001.pdf)    |
 | 競技プログラミングのための FFT - 多項式乗算の高速化ことはじめ - | [Archive (PDF)]({{ site.hcpc_archive_url }}math_fft_001.pdf)                 |
+| 競技プログラミング　だれでもわかる FFT/NTT 入門                 | [Archive (PDF)]({{ site.hcpc_archive_url }}math_fft_002.pdf)                 |
 | 包除原理 - 解ける数え上げの範囲を広げよう -                     | [Archive (PDF)]({{ site.hcpc_archive_url }}math_inclusion_exclusion_001.pdf) |
 
 {% enddetails %}
