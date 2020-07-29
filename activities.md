@@ -56,6 +56,7 @@ table {
 | 最大流（Ford-Fulkerson）・最小カット   | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_002.pdf)               |
 | 最大流（Dinic）・最小流量制約付き最大流| [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_003.pdf)               |
 | グラフマスターに、俺はなる！           | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_master_001.pdf)             |
+| 木のテクニック（DFS, オイラーツアー, HL 分解）| [Archive (PDF)]({{ site.hcpc_archive_url }}graph_xor_001.pdf)         |
 | 最大マッチングアルゴリズム             | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_max_matching_001.pdf)       |
 | ICPC 練習会 〜全域木いろいろ〜         | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_mst_001.pdf)                |
 | グラフを扱おう: 最短路問題             | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_shortest_path_001.pdf)      |
@@ -70,6 +71,7 @@ table {
 | タイトル                                                        | リンク                                                                       |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------|
 | 写像 12 相を題材にした、基本的な数え上げ問題に対するアプローチ  | [Archive (PDF)]({{ site.hcpc_archive_url }}math_twelvefold_way_001.pdf)      |
+| xor に関連したテクニック                                        | [Archive (PDF)]({{ site.hcpc_archive_url }}math_xor_001.pdf)    |
 | 数え上げテクニック Hard                                         | [Archive (PDF)]({{ site.hcpc_archive_url }}math_enumeration_hard_001.pdf)    |
 | 競技プログラミングのための FFT - 多項式乗算の高速化ことはじめ - | [Archive (PDF)]({{ site.hcpc_archive_url }}math_fft_001.pdf)                 |
 | 競技プログラミング　だれでもわかる FFT/NTT 入門                 | [Archive (PDF)]({{ site.hcpc_archive_url }}math_fft_002.pdf)                 |
