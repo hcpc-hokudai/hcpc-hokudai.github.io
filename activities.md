@@ -56,7 +56,7 @@ table {
 | 最大流（Ford-Fulkerson）・最小カット   | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_002.pdf)               |
 | 最大流（Dinic）・最小流量制約付き最大流| [Archive (PDF)]({{ site.hcpc_archive_url }}graph_flow_003.pdf)               |
 | グラフマスターに、俺はなる！           | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_master_001.pdf)             |
-| 木のテクニック（DFS, オイラーツアー, HL 分解）| [Archive (PDF)]({{ site.hcpc_archive_url }}graph_xor_001.pdf)         |
+| 木のテクニック（DFS, オイラーツアー, HL 分解）| [Archive (PDF)]({{ site.hcpc_archive_url }}graph_tree_001.pdf)         |
 | 最大マッチングアルゴリズム             | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_max_matching_001.pdf)       |
 | ICPC 練習会 〜全域木いろいろ〜         | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_mst_001.pdf)                |
 | グラフを扱おう: 最短路問題             | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_shortest_path_001.pdf)      |
@@ -118,7 +118,7 @@ table {
 | すべての基本 "全探索"                       | [Archive (pptx)]({{ site.hcpc_archive_url }}algorithm_bruteforce_001.pptx)           |
 | Convex Hull Trick                           | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_convex_hull_trick_001.pdf)      |
 | 座標圧縮                                    | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_coordinate_compression_001.pdf) |
-| 半分全列挙                                  | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_meet_in_the_mmiddle_001.pdf)    |
+| 半分全列挙                                  | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_meet_in_the_middle_001.pdf)    |
 | ソート (整列)                               | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_sort_001.pdf)                   |
 | 繰り返し 2 乗法 (バイナリ法)                | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_binary_001.pdf)                 |
 | 分割統治法 - 問題を小さく分けてまとめよう - | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_divide_and_conquer_001.pdf)     |
