@@ -107,6 +107,7 @@ table {
 | ICPC 勉強会 〜幾何入門〜 | [Archive (PDF)]({{ site.hcpc_archive_url }}geometry_001.pdf) |
 | 計算幾何入門 〜円〜      | [Archive (PDF)]({{ site.hcpc_archive_url }}geometry_002.pdf) |
 | 計算幾何入門 〜多角形〜  | [Archive (PDF)]({{ site.hcpc_archive_url }}geometry_003.pdf) |
+| 計算幾何入門 〜入門とゲームプログラミング〜 | [Archive (PDF)]({{ site.hcpc_archive_url }}geometry_004.pdf) |
 
 {% enddetails %}
 
