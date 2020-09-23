@@ -63,6 +63,8 @@ table {
 | 最短経路問題 & 最小全域木              | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_shortest_path_mst_001.pdf)  |
 | 強連結成分分解&トポロジカルソート      | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_scc_001.pdf)                |
 | トポロジカルソート                     | [Archive (pptx)]({{ site.hcpc_archive_url }}graph_topological_sort_001.pptx) |
+| 最小全域技列挙（マニアック）           | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_listing_spanning_tree_001.pdf) |
+| 木幅と動的計画法（マニアック）         | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_treewidth_001.pdf) |
 
 {% enddetails %}
 
