@@ -159,6 +159,24 @@ table {
 
 ///// template end ///// -->
 
+{% details 2020 %}
+
+- [合宿の案内 ()]({{ site.connpass_url}}179414)
+- コンテスト日程: 2020 年 9 月 14 日 13:00 〜 16:00
+- [問題セットへのリンク]({{ site.aoj_contest_url }}HUPC2020Day1)
+
+| 問題タイトル                                         | 解説                                                                 |
+|------------------------------------------------------|----------------------------------------------------------------------|
+| [A: 最安保証]({{ site.aoj_hupc_url }}3164)           | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_A.pdf) |
+| [B: 三角形足し算]({{ site.aoj_hupc_url }}3165)       | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_B.pdf) |
+| [C: Not Found]({{ site.aoj_hupc_url }}3166)         | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_C.pdf) |
+| [D: Many Points]({{ site.aoj_hupc_url }}3167)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_D.pdf) |
+| [E: えびちゃんを捕獲せよ]({{ site.aoj_hupc_url }}3168)         | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_E.pdf) |
+| [F: n-角錐グラフ]({{ site.aoj_hupc_url }}3169)   | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_F.pdf) |
+| [G: Freqs]({{ site.aoj_hupc_url }}3170) | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_G.pdf) |
+| [H: Traditional Company]({{ site.aoj_hupc_url }}3171) | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_H.pdf) |
+
+
 {% details 2019 %}
 
 ### 立命館大学競技プログラミング合宿 2019 Day3
