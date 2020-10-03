@@ -162,7 +162,7 @@ table {
 {% details 2020 %}
 
 ### 会津大学競技プログラミング合宿 2020 day3
-- [合宿の案内 (ATND)]({{ site.connpass_url }}183498)
+- [合宿の案内 (connpass)]({{ site.connpass_url }}183498)
 - コンテスト日程: 2020 年 9 月 21 日 13:00 〜 16:00
 - [問題セットへのリンク]({{ site.aoj_contest_url }}ACPC2019Day3)
 
@@ -179,7 +179,7 @@ table {
 
 
 ### 北海道大学プログラミング合宿 2020 Day1
-- [合宿の案内 ()]({{ site.connpass_url}}179414)
+- [合宿の案内 (connpass)]({{ site.connpass_url}}179414)
 - コンテスト日程: 2020 年 9 月 14 日 13:00 〜 16:00
 - [問題セットへのリンク]({{ site.aoj_contest_url }}HUPC2020Day1)
 
