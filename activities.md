@@ -86,7 +86,7 @@ table {
 | タイトル                          | リンク                                                                                |
 |-----------------------------------|---------------------------------------------------------------------------------------|
 | 文字列アルゴリズム                | [Archive (PDF)]({{ site.hcpc_archive_url }}string_algorithms_001.pdf)                 |
-| ローリングハッシュと Suffix Array | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_rollinghash_suffixarray_001.pdf) |
+| ローリングハッシュと Suffix Array | [Archive (PDF)]({{ site.hcpc_archive_url }}string_rollinghash_suffixarray_001.pdf) |
 
 {% enddetails %}
 
