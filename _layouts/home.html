@@ -6,20 +6,14 @@ layout: default
 
   {{ content }}
 
-  <h2>更新情報</h2>
+  <h2>ICPC 参加報告</h2>
 
-  <div>&nbsp;</div>
-
-  <ul class="post-list">
+  <ul>
     {% for post in site.posts %}
-      <li>
-
+    <li>
+        <span><a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a></span>
         {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
-        </h2>
+        <span class="post-meta">({{ post.date | date: date_format }})</span>
 
         <!-- {{ post.excerpt | markdownify | truncatewords: 30 }} -->
 
@@ -27,4 +21,6 @@ layout: default
     {% endfor %}
   </ul>
 
+  <!-- @hcpc_hokudai timeline -->
+  <a class="twitter-timeline" data-height="500" href="https://twitter.com/hcpc_hokudai?ref_src=twsrc%5Etfw">Tweets by hcpc_hokudai</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 </div>
