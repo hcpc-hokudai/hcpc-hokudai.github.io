@@ -28,7 +28,7 @@ table {
 | タイトル                                                                    | リンク                                                               |
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------|
 | プログラミングコンテスト入門                                                | [Archive (PDF)]({{ site.hcpc_archive_url }}introduction_001.pdf)     |
-| Introduction to Programming                                                 | [Archive (pptx)]({{ site.hcpc_archive_url }}introduction_002.pptx)   |
+| Introduction to Programming                                                 | [Archive (PDF)]({{ site.hcpc_archive_url }}introduction_002.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}introduction_002.pptx)   |
 | プログラミングコンテスト基礎テクニック                                      | [Archive (PDF)]({{ site.hcpc_archive_url }}introduction_003.pdf)     |
 | プログラミングコンテスト入門 - AtCoder Beginners Selection を解いてみよう - | [Archive (PDF)]({{ site.hcpc_archive_url }}introduction_abs_001.pdf) |
 
@@ -36,15 +36,15 @@ table {
 
 {% details 動的計画法 (Dynamic Programming) %}
 
-| タイトル                                                 | リンク                                                                             |
-|----------------------------------------------------------|------------------------------------------------------------------------------------|
-| 動的計画法: DP                                           | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_001.pdf)            |
-| 動的計画法を極める！ (蟻本 3-4 + α)                     | [Archive (pptx)]({{ site.hcpc_archive_url }}dynamic_programming_002.pptx)          |
-| EDPC 解説 (A 〜 E)                                       | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_edpc_001.pdf)       |
-| 基礎的な動的計画法トピック - ICPC 国内予選突破に向けて - | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_fundamental_dp.pdf) |
-| 確率 DP を極めよう - 確率と期待値の問題解説 -            | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_probability_dp.pdf) |
-| 文字列 DP (応用編) - 文字列を華麗に扱おう -              | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_string_dp.pdf)      |
-| こわくない全方位木 DP                                    | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_rerooting.pdf)      |
+| タイトル                                                 | リンク                                                                                                                                            |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| 動的計画法: DP                                           | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_001.pdf)                                                                           |
+| 動的計画法を極める！ (蟻本 3-4 + α)                     | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_002.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}dynamic_programming_002.pptx) |
+| EDPC 解説 (A 〜 E)                                       | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_edpc_001.pdf)                                                                      |
+| 基礎的な動的計画法トピック - ICPC 国内予選突破に向けて - | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_fundamental_dp.pdf)                                                                |
+| 確率 DP を極めよう - 確率と期待値の問題解説 -            | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_probability_dp.pdf)                                                                |
+| 文字列 DP (応用編) - 文字列を華麗に扱おう -              | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_string_dp.pdf)                                                                     |
+| こわくない全方位木 DP                                    | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_rerooting.pdf)                                                                     |
 
 {% enddetails %}
 
@@ -62,7 +62,7 @@ table {
 | グラフを扱おう: 最短路問題             | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_shortest_path_001.pdf)      |
 | 最短経路問題 & 最小全域木              | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_shortest_path_mst_001.pdf)  |
 | 強連結成分分解&トポロジカルソート      | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_scc_001.pdf)                |
-| トポロジカルソート                     | [Archive (pptx)]({{ site.hcpc_archive_url }}graph_topological_sort_001.pptx) |
+| トポロジカルソート                     | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_topological_sort_001.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}graph_topological_sort_001.pptx) |
 | 最小全域技列挙（マニアック）           | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_listing_spanning_tree_001.pdf) |
 | 木幅と動的計画法（マニアック）         | [Archive (PDF)]({{ site.hcpc_archive_url }}graph_treewidth_001.pdf) |
 
@@ -118,7 +118,7 @@ table {
 | タイトル                                    | リンク                                                                               |
 |---------------------------------------------|--------------------------------------------------------------------------------------|
 | 二分探索をはじめからていねいに              | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_binary_search_001.pdf)          |
-| すべての基本 "全探索"                       | [Archive (pptx)]({{ site.hcpc_archive_url }}algorithm_bruteforce_001.pptx)           |
+| すべての基本 "全探索"                       | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_bruteforce_001.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}algorithm_bruteforce_001.pptx)           |
 | Convex Hull Trick                           | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_convex_hull_trick_001.pdf)      |
 | 座標圧縮                                    | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_coordinate_compression_001.pdf) |
 | 半分全列挙                                  | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_meet_in_the_middle_001.pdf)    |
@@ -363,13 +363,13 @@ table {
 
 | 問題タイトル                                           | 解説                                                                 |
 |--------------------------------------------------------|----------------------------------------------------------------------|
-| [A: 席取り]({{ site.aoj_hupc_url }}2798)               | [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_A.pptx) |
-| [B: 山手線ゲーム]({{ site.aoj_hupc_url }}2799)         | [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_B.pptx) |
+| [A: 席取り]({{ site.aoj_hupc_url }}2798)               | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_A.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_A.pptx) |
+| [B: 山手線ゲーム]({{ site.aoj_hupc_url }}2799)         | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_B.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_B.pptx) |
 | [C: Mod! Mod!]({{ site.aoj_hupc_url }}2800)            | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_C.pdf) |
 | [D: 日焼け]({{ site.aoj_hupc_url }}2801)               | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_D.pdf) |
-| [E: 鬼畜ババ抜き]({{ site.aoj_hupc_url }}2802)         | [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_E.pptx) |
+| [E: 鬼畜ババ抜き]({{ site.aoj_hupc_url }}2802)         | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_E.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_E.pptx) |
 | [F: 風呂がオーバーフロー]({{ site.aoj_hupc_url }}2803) | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_F.pdf) |
-| [G: 最小包含矩形]({{ site.aoj_hupc_url }}2804)         | [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_G.pptx) |
+| [G: 最小包含矩形]({{ site.aoj_hupc_url }}2804)         | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_G.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}acpc/2016/acpc2016_G.pptx) |
 
 {% enddetails %}
 
