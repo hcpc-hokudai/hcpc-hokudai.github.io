@@ -192,7 +192,7 @@ namespace :site do
   desc "Generate the site and push changes to remote origin"
   task :deploy do
     # Detect pull request
-    if ENV.has_key?("GITHUB_HEAD_REF")
+    if ENV["GITHUB_HEAD_REF"].length > 0
       puts 'Pull request detected. Not proceeding with deploy.'
       exit
     end
