@@ -12,7 +12,7 @@
 
 ## ビルドについて (編集者向け)
 
-`source` ブランチにあるものは [Travis CI](https://travis-ci.org/) によって自動で `master` ブランチにビルドされます。以下の点にご注意ください。
+`source` ブランチにあるものは [GitHub Actions](https://github.co.jp/features/actions) によって自動で `master` ブランチにビルドされます。以下の点にご注意ください。
 
 - **`master` ブランチにあるものを編集しないでください。** しても CI で上書きされるので無駄です。
 - `source` ブランチで `jekyll build` 等をしてできる `ci-build` ディレクトリは **`push` しないでください** (`.gitignore` に書いてあるので意図的にやらない限りされないはずです)。このディレクトリは CI を走らせるときに生成・使用されるもので、リポジトリで管理する必要はありません。
