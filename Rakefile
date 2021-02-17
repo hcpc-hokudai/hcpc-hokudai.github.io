@@ -197,11 +197,6 @@ namespace :site do
       exit
     end
 
-    # Configure git
-    sh "git config --global user.name '#{ENV['GIT_NAME']}'"
-    sh "git config --global user.email '#{ENV['GIT_EMAIL']}'"
-    sh "git config --global push.default simple"
-
     # Make sure destination folder exists as git repo
     check_destination
 
