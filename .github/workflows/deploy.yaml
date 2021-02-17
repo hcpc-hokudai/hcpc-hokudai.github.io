@@ -1,0 +1,24 @@
+name: web-deploy
+on:
+  push:
+    branches:
+      - source
+  pull_request:
+    branches:
+      - source
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Ruby 2.5.1
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.5.1
+      - name: Install Packages
+        run: |
+          gem install bundler -v 2.0.2
+          bundle install
+      - name: Deploy
+        run: |
+          bundle exec rake site:deploy --quiet
