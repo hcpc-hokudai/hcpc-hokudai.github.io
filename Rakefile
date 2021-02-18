@@ -191,12 +191,6 @@ namespace :site do
 
   desc "Generate the site and push changes to remote origin"
   task :deploy do
-    # Detect pull request
-    if ENV["GITHUB_HEAD_REF"].length > 0
-      puts 'Pull request detected. Not proceeding with deploy.'
-      exit
-    end
-
     # Make sure destination folder exists as git repo
     check_destination
 
@@ -211,12 +205,16 @@ namespace :site do
     Dir.chdir(CONFIG["destination"]) do
       sh "git add --all ."
       diff_output = `git status --porcelain`
-      if diff_output.length > 0
+      if diff_output.length == 0
+        # There is no diff (do nothing)
+        puts "Nothing to commit. There is no need to push."
+      elsif ENV["GITHUB_HEAD_REF"].length > 0
+        # Detect Pull Request
+        puts "Pull request detected. Not proceeding with deploy."
+      else
         sh "git commit -m '[ci skip] Updating to #{USERNAME}/#{REPO}@#{sha}.'"
         sh "git push --quiet origin #{DESTINATION_BRANCH} >/dev/null 2>&1"
         puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
-      else
-        puts "Nothing to commit. There is no need to push."
       end
     end
   end
