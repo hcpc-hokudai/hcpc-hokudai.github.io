@@ -20,8 +20,10 @@ REPO = CONFIG["repo"] || "#{USERNAME}.github.io"
 if REPO == "#{USERNAME}.github.io"
   SOURCE_BRANCH = CONFIG['branch'] || "source"
   if ENV["GITHUB_HEAD_REF"].length > 0
-    SOURCE_BRANCH = ENV["GITHUB_HEAD_REF"]
+    # delete 'refs/'
+    SOURCE_BRANCH = ENV["GITHUB_REF"][5 .. -1]
   end
+  p SOURCE_BRANCH
   DESTINATION_BRANCH = "master"
 else
   SOURCE_BRANCH = "master"
