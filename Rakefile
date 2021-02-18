@@ -18,7 +18,12 @@ REPO = CONFIG["repo"] || "#{USERNAME}.github.io"
 # Project: master -> gh-pages
 # Name of source branch for user/organization defaults to "source"
 if REPO == "#{USERNAME}.github.io"
-  SOURCE_BRANCH = CONFIG['branch'] || "source"
+  if ENV["GITHUB_HEAD_REF"].length > 0
+    # delete 'refs/'
+    SOURCE_BRANCH = ENV["GITHUB_REF"][5 .. -1]
+  else
+    SOURCE_BRANCH = CONFIG['branch'] || "source"
+  end
   DESTINATION_BRANCH = "master"
 else
   SOURCE_BRANCH = "master"
@@ -191,12 +196,6 @@ namespace :site do
 
   desc "Generate the site and push changes to remote origin"
   task :deploy do
-    # Detect pull request
-    if ENV["GITHUB_HEAD_REF"].length > 0
-      puts 'Pull request detected. Not proceeding with deploy.'
-      exit
-    end
-
     # Make sure destination folder exists as git repo
     check_destination
 
@@ -210,9 +209,18 @@ namespace :site do
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
       sh "git add --all ."
-      sh "git commit -m '[ci skip] Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-      sh "git push --quiet origin #{DESTINATION_BRANCH} >/dev/null 2>&1"
-      puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
+      diff_output = `git status --porcelain`
+      if diff_output.length == 0
+        # There is no diff (do nothing)
+        puts "Nothing to commit. There is no need to push."
+      elsif ENV["GITHUB_HEAD_REF"].length > 0
+        # Detect Pull Request
+        puts "Pull request detected. Not proceeding with deploy."
+      else
+        sh "git commit -m '[ci skip] Updating to #{USERNAME}/#{REPO}@#{sha}.'"
+        sh "git push --quiet origin #{DESTINATION_BRANCH} >/dev/null 2>&1"
+        puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
+      end
     end
   end
 end
