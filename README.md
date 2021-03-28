@@ -1,5 +1,5 @@
 # HCPC 北海道大学競技プログラミングサークル
-[![Build Status](https://travis-ci.org/hcpc-hokudai/hcpc-hokudai.github.io.svg?branch=master)](https://travis-ci.org/hcpc-hokudai/hcpc-hokudai.github.io)
+![web-deploy](https://github.com/hcpc-hokudai/hcpc-hokudai.github.io/workflows/web-deploy/badge.svg?branch=source)
 
 - [このリポジトリに対応するホームページはこちら](https://hcpc-hokudai.github.io/)
 - [旧ホームページはこちら](http://hcpc.web.fc2.com/)
@@ -7,11 +7,12 @@
 ## 注意 (編集者向け)
 
 - `Gemfile` および `Gemfile.lock` は gem パッケージの管理に必要なファイルです。取扱にはご注意ください
-- Nov 6. 2019 頃に構成を大きく変更しました。それ以前に `clone` していてあまりいじっていない場合は、消して再度 `clone` したほうがいろいろと楽だと思います
+- Nov 6, 2019 頃に構成を大きく変更しました。それ以前に `clone` していてあまりいじっていない場合は、消して再度 `clone` したほうがいろいろと楽だと思います
+- Feb 18, 2021 に Travis CI から GitHub Actions に乗り換えました。これにより、このリポジトリに関するソース管理・CI 実行などといったサイト運営に必要なプロセスは、すべて GitHub に任せる形になりました。
 
 ## ビルドについて (編集者向け)
 
-`source` ブランチにあるものは [Travis CI](https://travis-ci.org/) によって自動で `master` ブランチにビルドされます。以下の点にご注意ください。
+`source` ブランチにあるものは [GitHub Actions](https://github.co.jp/features/actions) によって自動で `master` ブランチにビルドされます。以下の点にご注意ください。
 
 - **`master` ブランチにあるものを編集しないでください。** しても CI で上書きされるので無駄です。
 - `source` ブランチで `jekyll build` 等をしてできる `ci-build` ディレクトリは **`push` しないでください** (`.gitignore` に書いてあるので意図的にやらない限りされないはずです)。このディレクトリは CI を走らせるときに生成・使用されるもので、リポジトリで管理する必要はありません。

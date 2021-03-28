@@ -1,0 +1,33 @@
+name: web-deploy
+on:
+  push:
+    branches:
+      - source
+  pull_request:
+    branches:
+      - source
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Ruby 2.5.1
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.5.1
+          bundler-cache: true
+      - name: Install Packages
+        run: |
+          gem install bundler -v 2.0.2
+          bundle install
+      - name: Git Config
+        run: |
+          git config --global user.name ${{ secrets.GIT_NAME }}
+          git config --global user.email ${{ secrets.GIT_EMAIL }}
+          git config --global push.default simple
+      - name: Deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIT_NAME: ${{ secrets.GIT_NAME }}
+        run: |
+          bundle exec rake site:deploy --quiet
