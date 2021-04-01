@@ -99,6 +99,8 @@ table {
 | RMQ クエリ処理                  | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_rmq_001.pdf)                 |
 | 非再帰セグ木                    | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_segtree_001.pdf)             |
 | UnionFind                       | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_union_find_001.pdf)          |
+| van Emde Boas Trees（前半）     | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_vebtree_001.pdf)             |
+| van Emde Boas Trees（後半）     | [Archive (PDF)]({{ site.hcpc_archive_url }}structure_vebtree_002.pdf)             |
 
 {% enddetails %}
 
