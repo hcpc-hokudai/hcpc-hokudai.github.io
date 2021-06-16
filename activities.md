@@ -39,12 +39,13 @@ table {
 | タイトル                                                 | リンク                                                                                                                                            |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | 動的計画法: DP                                           | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_001.pdf)                                                                           |
-| 動的計画法を極める！ (蟻本 3-4 + α)                     | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_002.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}dynamic_programming_002.pptx) |
+| 動的計画法を極める！ (蟻本 3-4 + α)                      | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_002.pdf) [Archive (pptx)]({{ site.hcpc_archive_url }}dynamic_programming_002.pptx) |
 | EDPC 解説 (A 〜 E)                                       | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_edpc_001.pdf)                                                                      |
 | 基礎的な動的計画法トピック - ICPC 国内予選突破に向けて - | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_fundamental_dp.pdf)                                                                |
 | 確率 DP を極めよう - 確率と期待値の問題解説 -            | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_probability_dp.pdf)                                                                |
 | 文字列 DP (応用編) - 文字列を華麗に扱おう -              | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_string_dp.pdf)                                                                     |
 | こわくない全方位木 DP                                    | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_rerooting.pdf)                                                                     |
+| 桁 DP                                                    | [Archive (PDF)]({{ site.hcpc_archive_url }}dynamic_programming_digit.pdf)                                                                         |
 
 {% enddetails %}
 
