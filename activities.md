@@ -128,7 +128,7 @@ table {
 | ソート (整列)                               | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_sort_001.pdf)                   |
 | 繰り返し 2 乗法 (バイナリ法)                | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_binary_001.pdf)                 |
 | 分割統治法 - 問題を小さく分けてまとめよう - | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_divide_and_conquer_001.pdf)     |
-
+| 組み合わせゲーム理論                     | [Archive (PDF)]({{ site.hcpc_archive_url }}algorithm_combinational_game_theory.pdf)  |
 {% enddetails %}
 
 {% details 実装テクニック (Implementation Technique) %}
