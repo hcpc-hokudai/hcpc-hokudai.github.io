@@ -171,14 +171,14 @@ table {
 
 | 問題タイトル                                           | 解説                                                                 |
 |--------------------------------------------------------|----------------------------------------------------------------------|
-| [A: ナンってナン回言った？]({{ site.aoj_hupc_url }}3238)             | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/hupc2021_A.pdf) |
-| [B: Sufficient Condition]({{ site.aoj_hupc_url }}3239)         | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/hupc2021_B.pdf) |
-| [C: Separate Number]({{ site.aoj_hupc_url }}3240)            | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/hupc2021_C.pdf) |
-| [D: Successive Tree]({{ site.aoj_hupc_url }}3241)          | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2020/hupc2020_D.pdf) |
-| [E: +- Switch]({{ site.aoj_hupc_url }}3242) | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/hupc2021_E.pdf) |
-| [F: A2B]({{ site.aoj_hupc_url }}3243)         | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/hupc2021_F.pdf) |
-| [G: XOR Walk]({{ site.aoj_hupc_url }}3244)                | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/hupc2021_G.pdf) |
-| [H: 命綱]({{ site.aoj_hupc_url }}3245)  | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/hupc2021_H.pdf) |
+| [A: ナンってナン回言った？]({{ site.aoj_hupc_url }}3238)             | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_A.pdf) |
+| [B: Sufficient Condition]({{ site.aoj_hupc_url }}3239)         | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_B.pdf) |
+| [C: Separate Number]({{ site.aoj_hupc_url }}3240)            | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_C.pdf) |
+| [D: Successive Tree]({{ site.aoj_hupc_url }}3241)          | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_D.pdf) |
+| [E: +- Switch]({{ site.aoj_hupc_url }}3242) | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_E.pdf) |
+| [F: A2B]({{ site.aoj_hupc_url }}3243)         | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_F.pdf) |
+| [G: XOR Walk]({{ site.aoj_hupc_url }}3244)                | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_G.pdf) |
+| [H: 命綱]({{ site.aoj_hupc_url }}3245)  | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_H.pdf) |
 
 {% enddetails %}
 {% details 2020 %}
