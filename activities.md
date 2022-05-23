@@ -180,6 +180,25 @@ table {
 | [G: XOR Walk]({{ site.aoj_hupc_url }}3244)                | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_G.pdf) |
 | [H: 命綱]({{ site.aoj_hupc_url }}3245)  | [Archive (PDF)]({{ site.hcpc_archive_url }}acpc/2021/acpc2021_H.pdf) |
 
+### 北海道大学競技プログラミング合宿 2021 day1
+- [合宿の案内 (connpass)]({{ site.reg_connpass_url }}234290)
+- コンテスト日程: 2022 年 3 月 19 日 13:00 〜 16:00
+- [問題セットへのリンク]({{ site.aoj_contest_url }}HUPC2021Day1)
+
+| 問題タイトル                                           | 解説                                                                 |
+|--------------------------------------------------------|----------------------------------------------------------------------|
+|[A: 分類器]({{ site.aoj_hupc_url }}3274)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_A.pdf) |
+|[B: タピオカ]({{ site.aoj_hupc_url }}3275)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_B.pdf) |
+|[C: :Parentheses Inversion]({{ site.aoj_hupc_url }}3276)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_C.pdf) |
+|[D: xor Paradise]({{ site.aoj_hupc_url }}3277)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_D_1.pdf) |
+|[E: Subset Coloring]({{ site.aoj_hupc_url }}3278)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_E.pdf) |
+|[F: 数列勝負]({{ site.aoj_hupc_url }}3279)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_F.pdf) |
+|[G: Two Everywhere]({{ site.aoj_hupc_url }}3280)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_G.pdf) |
+|[H: Infinite Problems]({{ site.aoj_hupc_url }}3281)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_H.pdf) |
+|[I: 視程]({{ site.aoj_hupc_url }}3282)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_I.pdf) |
+|[J: GCD swap]({{ site.aoj_hupc_url }}3283)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_J.pdf) |
+|[K: pushPushPUSH]({{ site.aoj_hupc_url }}3284)                 | [Archive (PDF)]({{ site.hcpc_archive_url }}hupc/2021/hupc2021_K.pdf) |
+
 {% enddetails %}
 {% details 2020 %}
 
