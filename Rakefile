@@ -10,7 +10,7 @@ require 'date'
 require 'yaml'
 
 CONFIG = YAML.load(File.read('_config.yml'))
-USERNAME = CONFIG["username"] || ENV['GIT_NAME']
+USERNAME = CONFIG["username"]
 REPO = CONFIG["repo"] || "#{USERNAME}.github.io"
 
 # Determine source and destination branch
@@ -93,7 +93,8 @@ end
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    puts "destination folder not found"
+    exit 1
   end
 end
 
@@ -217,6 +218,7 @@ namespace :site do
         # Detect Pull Request
         puts "Pull request detected. Not proceeding with deploy."
       else
+        sh "git status"
         sh "git commit -m '[ci skip] Updating to #{USERNAME}/#{REPO}@#{sha}.'"
         sh "git push --quiet origin #{DESTINATION_BRANCH} >/dev/null 2>&1"
         puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"

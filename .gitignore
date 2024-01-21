@@ -11,5 +11,5 @@ _site/
 run.sh
 
 ### Travis CI 用
-vendor
-ci-build
+vendor/
+ci-build/

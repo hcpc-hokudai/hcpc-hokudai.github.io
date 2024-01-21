@@ -10,7 +10,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - name: Clone into ci-build
+        uses: actions/checkout@v3
+        with:
+          path: ci-build
+          ref: master
       - name: Setup Ruby 2.5.1
         uses: ruby/setup-ruby@v1
         with:
@@ -22,12 +27,9 @@ jobs:
           bundle install
       - name: Git Config
         run: |
-          git config --global user.name ${{ secrets.GIT_NAME }}
-          git config --global user.email ${{ secrets.GIT_EMAIL }}
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global push.default simple
       - name: Deploy
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIT_NAME: ${{ secrets.GIT_NAME }}
         run: |
           bundle exec rake site:deploy --quiet
