@@ -206,6 +206,7 @@ table {
 |[K: Power Game](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/K)|
 |[L: 01 Swap](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/L)|
 |[M: Fish Tank](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/M)|
+{% enddetails %}
 
 {% details 2021 %}
 
