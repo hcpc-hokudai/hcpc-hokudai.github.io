@@ -163,6 +163,29 @@ table {
 ///// template end ///// -->
 
 {% details 2023 %}
+
+### 大阪大学プログラミングコンテスト OUPC2023 Day2
+- [合宿の案内 (connpass)](https://connpass.com/event/298268/)
+- コンテスト日程: 2024 年 1 月 7 日 13:00 〜 17:00
+- [問題セットへのリンク](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2)
+- [解説スライド](https://drive.google.com/drive/folders/1CQZjiIuGgnwXnb4JYW4sEW0c6Xpk6Jk_)
+
+|問題タイトル|
+|---|
+|[A: Prime Tour](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/A)|
+|[B: N-Sukumi Janken](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/B)|
+|[C: Ferris Wheel](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/C)|
+|[D: Namori Counting](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/D)|
+|[E: Shotgun Shuffle](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/E)|
+|[F: Slot Punch](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/F)|
+|[G: Apple Tree](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/G)|
+|[H: Rectangle Drawing](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/H)|
+|[I: Tsumiki Box](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/I)|
+|[J: Parentheses Counting on Tree](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/J)|
+|[K: LCA Counting](https://onlinejudge.u-aizu.ac.jp/services/room.html#OUPC2023Day2/problems/K)|
+
+
+### 北海道大学プログラミングコンテスト HUPC2023 Day1
 - [合宿の案内 (connpass)](https://connpass.com/event/280876/)
 - コンテスト日程: 2023 年 5 月 4 日 15:30 〜 18:30
 - [問題セットへのリンク](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/info)
