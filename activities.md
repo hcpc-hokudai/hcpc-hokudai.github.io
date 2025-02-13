@@ -162,6 +162,28 @@ table {
 
 ///// template end ///// -->
 
+{% details 2023 %}
+- [合宿の案内 (connpass)](https://connpass.com/event/280876/)
+- コンテスト日程: 2023 年 5 月 4 日 15:30 〜 18:30
+- [問題セットへのリンク](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/info)
+- [解説スライド](https://drive.google.com/drive/folders/1KoV507hNY39alt9nXGOu0OjRS2tEyH2b)
+
+|問題タイトル|
+|---|
+|[A: Converse and Inverse](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/A)|
+|[B: Merge Sequences](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/B)|
+|[C: Range Same Query](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/C)|
+|[D: Beam Beam Beam](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/D)|
+|[E: Connected Treasure Box](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/E)|
+|[F: Euler Query](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/F)|
+|[G: Detour](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/G)|
+|[H: Counting Repdigits](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/H)|
+|[I: Sum of Tree](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/I)|
+|[J: Range Xor Query](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/J)|
+|[K: Power Game](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/K)|
+|[L: 01 Swap](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/L)|
+|[M: Fish Tank](https://onlinejudge.u-aizu.ac.jp/services/room.html#HUPC2023Day1/problems/M)|
+
 {% details 2021 %}
 
 ### 会津大学競技プログラミング合宿 2021 Day3
