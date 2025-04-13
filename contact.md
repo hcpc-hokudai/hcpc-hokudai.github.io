@@ -13,6 +13,6 @@ order: 1
 
 * GitHub アカウント: [hcpc-hokudai]({{ site.github.owner_url }})
     - 勉強会のスライドはこちらからダウンロードできます。
-* Twitter アカウント: [@hcpc_hokudai](https://twitter.com/{{ site.twitter.username }})
+* X (旧 Twitter) アカウント: [@hcpc_hokudai](https://twitter.com/{{ site.twitter.username }})
     - ダイレクトメッセージを公開しているため、相互フォローしていなくても DM を送ることができます。
 * メールアドレス: hokudai [dot] procon [at] gmail [dot] com
