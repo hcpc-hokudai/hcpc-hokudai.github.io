@@ -7,20 +7,20 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Clone into ci-build
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: ci-build
           ref: master
-      - name: Setup Ruby 2.5.1
+      - name: Setup Ruby 3.4.3
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.5.1
+          ruby-version: 3.4.3
           bundler-cache: true
       - name: Install Packages
         run: |
-          gem install bundler -v 2.0.2
+          gem install bundler -v 2.6.8
           bundle install
       - name: Git Config
         run: |
